@@ -5,7 +5,7 @@ Source: https://cryosparc.com/docs/quickstart/
 ````
 #!/bin/bash
 <install_path> = /home/cryosparc_user/software/cryosparc
-<license_id> = 682437fb-d2ae-47b8-870b-b530c587da94
+<license_id> = 682437fb-d2ae-47b8-870b-b530c587da94 #Change to your own license id
 <cuda_path> = /usr/local/cud
 <ssd_path> = /scratch/cryosparc_cache
 <ssd_path> = /scratch/cryosparc_cache
