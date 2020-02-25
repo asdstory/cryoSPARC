@@ -6,7 +6,8 @@ Source: https://cryosparc.com/docs/quickstart/
 #!/bin/bash
 <install_path> = /home/cryosparc_user/software/cryosparc
 <license_id> = 682437fb-d2ae-47b8-870b-b530c587da94 #Change to your own license id
-<cuda_path> = /usr/local/cud
+<worker_path> = /home/cryosparc_user/software/cryosparc/cryosparc2_worker
+<cuda_path> = /usr/local/cuda
 <ssd_path> = /scratch/cryosparc_cache
 <ssd_path> = /scratch/cryosparc_cache
 <user_password> = Password123
