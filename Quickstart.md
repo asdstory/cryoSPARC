@@ -1,6 +1,6 @@
 Source: https://cryosparc.com/docs/quickstart/
 
-Edit following script using your own account and worksation, and run it to install cryosparc.
+### Edit following script using your own account and worksation, and run it to install cryosparc.
 
 ````
 #!/bin/bash
@@ -38,4 +38,4 @@ source ~/.bashrc
 
 ````
 
-After completing the above, navigate your browser to http://<workstation_hostname>:39000 to access the cryoSPARC user interface.
+### After completing the above, navigate your browser to http://<workstation_hostname>:39000 to access the cryoSPARC user interface.
