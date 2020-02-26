@@ -7,7 +7,7 @@ Source: https://cryosparc.com/docs/quickstart/
 <install_path> = /home/dout2/Application/cryosparc
 <license_id> = 133a762e-54e1-11ea-88c5-6b3d93485143 #Change to your own license id
 <worker_path> = /home/dout2/Application/cryosparc/cryosparc2_worker
-<cuda_path> = /usr/local/cuda
+<cuda_path> = /data/jianglab-nfs/programs/lib/cuda-10.1
 <ssd_path> = /scratch/nvme-ssd/cryosparc_cache
 <ssd_path> = /scratch/nvme-ssd/cryosparc_cache
 <user_password> = d000001
