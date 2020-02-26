@@ -9,8 +9,9 @@ license_id='133a762e-54e1-11ea-88c5-6b3d93485143'
 worker_path='/data/data2/cryosparc/cryosparc2_worker'
 cuda_path='/data/jianglab-nfs/programs/lib/cuda-10.1'
 ssd_path='/scratch/nvme-ssd/cryosparc_cache'
-user_password='d000001'
-user_name="Tongyi Dou"
+user_email='tongyi.dou@nih.gov'
+user_password="d000001"
+user_name="Tongyi"
 port_number='39000'
 #SSH into the workstation as cryosparc_user (the UNIX user that will run all cryosparc processes, could be your personal account). The following assumes bash is your shell.
 
