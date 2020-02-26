@@ -4,9 +4,9 @@ Source: https://cryosparc.com/docs/quickstart/
 
 ````
 #!/bin/bash
-install_path='/home/dout2/Application/cryosparc'
+install_path='/data/data2/cryosparc'
 license_id='133a762e-54e1-11ea-88c5-6b3d93485143'
-worker_path='/home/dout2/Application/cryosparc/cryosparc2_worker'
+worker_path='/data/data2/cryosparc/cryosparc2_worker'
 cuda_path='/data/jianglab-nfs/programs/lib/cuda-10.1'
 ssd_path='/scratch/nvme-ssd/cryosparc_cache'
 user_password='d000001'
