@@ -11,7 +11,7 @@ cuda_path='/data/jianglab-nfs/programs/lib/cuda-10.1'
 ssd_path='/scratch/nvme-ssd/cryosparc_cache'
 user_password='d000001'
 user_name="Tongyi Dou"
-port_number=39000
+port_number='39000'
 #SSH into the workstation as cryosparc_user (the UNIX user that will run all cryosparc processes, could be your personal account). The following assumes bash is your shell.
 
 cd $install_path
@@ -27,12 +27,12 @@ cd cryosparc2_master
 
 ./install.sh    --standalone \
                 --license $LICENSE_ID \
-                --worker_path <worker_path> \
-                --cudapath <cuda_path> \
-                --ssdpath <ssd_path> \
-                --initial_email <user_email> \
-                --initial_password <user_password> \
-                --initial_name <user_name> \
+                --worker_path $worker_path \
+                --cudapath $cuda_path \
+                --ssdpath $ssd_path \
+                --initial_email $user_email \
+                --initial_password $user_password \
+                --initial_name $user_name \
 
 source ~/.bashrc
 
