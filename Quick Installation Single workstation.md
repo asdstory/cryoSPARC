@@ -39,4 +39,6 @@ source ~/.bashrc
 
 ````
 
-## After completing the above, navigate your browser to http://<workstation_hostname>:39000 to access the cryoSPARC user interface.
+## After completing the above, navigate your browser to http://<workstation_hostname>:39000 to access the cryoSPARC user interface. For example, here for me is:
+
+- [ ] http://bbc-u02058660:39000/
