@@ -4,14 +4,14 @@ Source: https://cryosparc.com/docs/quickstart/
 
 ````
 #!/bin/bash
-<install_path> = /home/cryosparc_user/software/cryosparc
-<license_id> = 682437fb-d2ae-47b8-870b-b530c587da94 #Change to your own license id
-<worker_path> = /home/cryosparc_user/software/cryosparc/cryosparc2_worker
+<install_path> = /home/dout2/Application/cryosparc
+<license_id> = 133a762e-54e1-11ea-88c5-6b3d93485143 #Change to your own license id
+<worker_path> = /home/dout2/Application/cryosparc/cryosparc2_worker
 <cuda_path> = /usr/local/cuda
-<ssd_path> = /scratch/cryosparc_cache
-<ssd_path> = /scratch/cryosparc_cache
-<user_password> = Password123
-<user_name> = "FirstName LastName"
+<ssd_path> = /scratch/nvme-ssd/cryosparc_cache
+<ssd_path> = /scratch/nvme-ssd/cryosparc_cache
+<user_password> = d000001
+<user_name> = "Tongyi Dou"
 <port_number> = 39000
 #SSH into the workstation as cryosparc_user (the UNIX user that will run all cryosparc processes, could be your personal account). The following assumes bash is your shell.
 
