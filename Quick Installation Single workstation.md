@@ -44,3 +44,16 @@ source ~/.bashrc
 ## For example, here for me is:
 
 - [ ] http://bbc-u02058660:39000/
+
+## How to update GPU usage/setup
+
+`````````
+
+cryosparcw connect
+  --worker <worker_hostname>
+  --master <master_hostname>
+  --port <port_num>
+  --update
+  --gpus 0,1,2
+
+````````
