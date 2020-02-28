@@ -50,9 +50,9 @@ source ~/.bashrc
 `````````
 
 cryosparcw connect
-  --worker <worker_hostname>
-  --master <master_hostname>
-  --port <port_num>
+  --worker bbc-u02058660
+  --master bbc-u02058660
+  --port 39000
   --update
   --gpus 0,1,2
 
